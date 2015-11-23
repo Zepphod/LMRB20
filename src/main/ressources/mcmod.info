@@ -1,0 +1,21 @@
+[
+{
+  "modid": "lmrb20",
+  "name": "LMRB 2.0",
+  "description": "Private Stuff.",
+  "version": "1.7.10-0.01",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "Zepphod"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
