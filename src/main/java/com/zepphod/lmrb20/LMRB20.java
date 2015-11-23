@@ -1,6 +1,7 @@
 package com.zepphod.lmrb20;
 
 import com.zepphod.lmrb20.proxy.IProxy;
+import com.zepphod.lmrb20.reference.Reference;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -17,7 +18,7 @@ public class LMRB20 {
     @Mod.Instance("LMRB20")
     public static LMRB20 instance;
 
-    @SidedProxy(clientSide = "com.zepphod.lmrb20.proxy.ClientProxy", serverSide = "com.zepphod.lmrb20.proxy.ServerProxy")
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;
 
     @Mod.EventHandler
