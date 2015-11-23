@@ -3,5 +3,5 @@ package com.zepphod.lmrb20.proxy;
 /**
  * Created by Zepphod on 23/11/2015.
  */
-public class CommonProxy {
+public abstract class CommonProxy extends IProxy{
 }
